@@ -1,5 +1,8 @@
 {
   "current": {
+    "type_header_base_size": "34px",
+    "type_base_size": "16px",
+    "cart_type": "drawer",
     "checkout_accent_color": "#a26b25",
     "checkout_button_color": "#000000",
     "checkout_error_color": "#e32c2b",
@@ -7,7 +10,20 @@
       "header": {
         "type": "header",
         "settings": {
-          "show_announcement": true
+          "logo_max_width": 50,
+          "header_color": "#ffffff",
+          "transparent_header_enable": false,
+          "transparent_header_color": "#ffffff",
+          "search": "none",
+          "main_menu_link_list": "main-menu-1",
+          "drawer_bottom_link_list": "",
+          "drawer_search_enable": false,
+          "show_announcement": false,
+          "home_page_only": false,
+          "text": "Hier Ankündigung platzieren",
+          "link": "",
+          "color_bg": "#1c1d1d",
+          "color_text": "#ffffff"
         }
       },
       "slideshow": {
@@ -16,25 +32,36 @@
           "slideshow-0": {
             "type": "slide",
             "settings": {
-            }
-          },
-          "slideshow-1": {
-            "type": "slide",
-            "settings": {
+              "image": "shopify:\/\/shop_images\/TexasHayNet-Colorado977-1.jpg",
+              "image_position": "left top",
+              "image_overlay": false,
+              "image_overlay_opacity": 25,
+              "text_alignment": "left",
+              "slide_heading": "Reduce Waste Improve Digestion Slow Feed",
+              "slide_subheading": "",
+              "button_label": "Shop Now",
+              "button_link": "shopify:\/\/collections",
+              "slide_text_color": "#ffffff",
+              "slide_button_label_color": "#1c1d1d",
+              "slide_button_background_color": "#f5f1f2"
             }
           }
         },
         "block_order": [
-          "slideshow-0",
-          "slideshow-1"
+          "slideshow-0"
         ],
         "settings": {
+          "home_hero_height": "full",
+          "hero_home_auto": false,
+          "home_hero_auto_speed": 5
         }
       },
       "featured-content": {
         "type": "featured-content",
         "settings": {
+          "home_page_full_width": false,
           "section_title": "",
+          "text": "<p>Mit diesem Text kannst du deine Kunden über deine Marke informieren. Beschreibe ein Produkt, veröffentliche Ankündigungen oder begrüße Kunden in deinem Shop.<\/p>",
           "text_size": "large"
         }
       },
@@ -44,26 +71,31 @@
           "featured-collections-0": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "featured-collections-1": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "featured-collections-2": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "featured-collections-3": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "featured-collections-4": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           }
         },
@@ -75,28 +107,54 @@
           "featured-collections-4"
         ],
         "settings": {
+          "title": "SLOW FEED HAY NETS"
         }
       },
       "featured-products": {
         "type": "featured-products",
         "settings": {
+          "title": "Vorgestellte Kategorie",
+          "home_featured_products": "",
           "collection_products_grid": "grid"
         }
       },
       "featured-product": {
         "type": "featured-product",
         "settings": {
+          "featured_product": "",
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "enable_video_looping": false
         }
       },
       "newsletter": {
         "type": "newsletter",
         "settings": {
+          "heading": "Unseren Newsletter abonnieren",
+          "subheading": "<p>Werbeaktionen, neue Produkte und Sonderangebote. Direkt in deinem Posteingang.<\/p>"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "show_payment_icons": true,
+          "show_currency_selector": true,
+          "show_locale_selector": true,
+          "footer_link_list": "footer"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical"
         }
       }
     },
     "content_for_index": [
       "slideshow",
-      "featured-content",
       "featured-collections",
       "featured-products",
       "featured-product",
